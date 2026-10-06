@@ -3,7 +3,7 @@
     xmlns:f="sap.f"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-    	<f:GridList id="grl01" headerText="Academy Awards"
+    	<f:GridList id="grl01" headerText="Academy Awards 1933 - 1945"
 					items="{/oscar}">
 			<f:GridListItem id="gli0">
 				<VBox id="vbx01" class="sapUiTinyMargin">
