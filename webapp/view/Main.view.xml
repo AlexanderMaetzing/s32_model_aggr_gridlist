@@ -1,0 +1,18 @@
+<mvc:View controllerName="qst.s32.s32modelaggrgridlist.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.f"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    	<f:GridList id="grl01" headerText="Academy Awards"
+					items="{/oscar}">
+			<f:GridListItem id="gli0">
+				<VBox id="vbx01" class="sapUiTinyMargin">
+
+					<Image id="img01" src="../data/Oscar.jpg" height="50px"/>
+					<Title id="tit01" text="{oscYear}" wrapping="true" />
+					<Label id="lbl01" text="{oscBestFilm}" wrapping="true" />
+				</VBox>				
+			</f:GridListItem>
+		</f:GridList>
+    </Page>
+</mvc:View>
